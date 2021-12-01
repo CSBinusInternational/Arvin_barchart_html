@@ -1,0 +1,139 @@
+
+.chart-wrap {
+  margin-left: 50px;
+  font-family: sans-serif;
+  height: 650px;
+  width: 300px;
+}
+
+.mainTitle {
+  text-align: center;
+}
+
+.chart-wrap .title {
+  font-weight: bold;
+  font-size: 1.62em;
+  padding: 0.5em 0 1.8em 0;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.chart-wrap.vertical .grid {
+  transform: translateY(-175px) translateX(175px) rotate(-90deg);
+}
+
+.chart-wrap.vertical .grid .redbar::after {
+  transform: translateY(-25%) rotate(90deg);
+  display: block;
+}
+
+.chart-wrap.vertical .grid .greenbar::after {
+  transform: translateY(-25%) rotate(90deg);
+  display: block;
+}
+
+.chart-wrap.vertical .grid .bluebar::after {
+  transform: translateY(-25%) rotate(90deg);
+  display: block;
+}
+
+.chart-wrap.vertical .grid .yellowbar::after {
+  transform: translateY(-25%) rotate(90deg);
+  display: block;
+}
+
+.chart-wrap.vertical .grid::before, .chart-wrap.vertical .grid::after {
+  transform: translateX(-0.2em) rotate(90deg);
+}
+
+.chart-wrap .grid {
+  position: relative;
+  padding: 5px 0 5px 0;
+  height: 50%;
+  width: 50%;
+  border-left: 2px solid #aaa;
+  background: repeating-linear-gradient(90deg, transparent, transparent 17.5%, rgba(170, 170, 170, 0.7) 20%);
+}
+
+.chart-wrap .grid::before {
+  font-size: 0.8em;
+  font-weight: bold;
+  content: '0%';
+  position: absolute;
+  left: -0.5em;
+  top: -1.5em;
+}
+
+.chart-wrap .grid::after {
+  font-size: 0.8em;
+  font-weight: bold;
+  content: '100%';
+  position: absolute;
+  right: -1.5em;
+  top: -1.5em;
+}
+
+.chart-wrap .redbar {
+
+  width: var(--bar-value);
+  height: 50px;
+  margin: 15px 0;
+  background-color: #DC143C;
+  border-radius: 0 3px 3px 0;
+}
+
+.chart-wrap .greenbar {
+  width: var(--bar-value);
+  height: 50px;
+  margin: 15px 0;
+  background-color: #8FBC8F;
+  border-radius: 0 3px 3px 0;
+}
+
+.chart-wrap .bluebar {
+  width: var(--bar-value);
+  height: 50px;
+  margin: 15px 0;
+  background-color: #4169e1;
+  border-radius: 0 3px 3px 0;
+}
+
+.chart-wrap .yellowbar {
+  width: var(--bar-value);
+  height: 50px;
+  margin: 15px 0;
+  background-color: #F0E68C;
+  border-radius: 0 3px 3px 0;
+}
+
+.chart-wrap .redbar::after {
+  content: attr(data-name);
+  margin-left: 100%;
+  padding: 10px;
+  white-space: nowrap;
+  font-size: 13;
+}
+
+.chart-wrap .greenbar::after {
+  content: attr(data-name);
+  margin-left: 100%;
+  padding: 10px;
+  white-space: nowrap;
+  font-size: 13;
+}
+
+.chart-wrap .bluebar::after {
+  content: attr(data-name);
+  margin-left: 100%;
+  padding: 10px;
+  white-space: nowrap;
+  font-size: 13;
+}
+
+.chart-wrap .yellowbar::after {
+  content: attr(data-name);
+  margin-left: 100%;
+  padding: 10px;
+  font-size: 13;
+  white-space: nowrap;
+}

@@ -1,0 +1,71 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.red{
+  width: 5px;
+  background-color: red;
+  display: flex;
+  position: relative;
+  left: 300px;
+}
+.green{
+  width: 5px;
+  background-color: green;
+display: flex;
+  position: relative;
+  left: 300px;
+}
+.blue{
+  width: 5px;
+  background-color: blue;
+  display: flex;
+  position: relative;
+  left: 300px;
+}
+.yellow{
+  width: 5px;
+  background-color: yellow;
+  display: flex;
+  position: relative;
+  left: 300px;
+}
+.purple{
+  width: 5px;
+  background-color: purple;
+  display: flex;
+  position: relative;
+  left: 300px;
+
+}
+.chart{
+  height: 200px;
+  width: 200px;
+  background: conic-gradient(#DC143C 0% 61.80%,#4169e1 61.80% 100%);
+  border-radius: 50%;
+
+}
+
+.chart2{
+  height: 200px;
+  width: 200px;
+  background: conic-gradient(#DC143C  0% 35.60%,#4169e1 35.60% 100%);
+  border-radius: 50%;
+
+}
+.chart3{
+  height: 200px;
+  width: 200px;
+  background: conic-gradient(#8FBC8F 0% 21.51%, #4169e1 21.51% 76.58% ,#DC143C 76.58% 96.18%, #F0E68C 96.18% 100%  );
+  border-radius: 50%;
+
+}
+.title {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 0.5em 0 1.8em 0;
+  text-align: center;
+  white-space: nowrap;
+}
