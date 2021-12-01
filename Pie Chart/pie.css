@@ -1,45 +1,50 @@
-body{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
+.mainTitle{
+  text-align: center;
 }
+
 .red{
-  width: 5px;
+  width: 50%;
   background-color: red;
-  display: flex;
+
   position: relative;
-  left: 300px;
+
+
+
+  margin-bottom: 60px;
+  padding: 10px  0 10px 0;
+  text-align: center;
 }
 .green{
-  width: 5px;
+  width: 50%;
   background-color: green;
-display: flex;
+  display: flex;
   position: relative;
-  left: 300px;
+
+  margin-bottom: 60px;
+ padding: 10px  0 10px 0;
+ text-align: center;
 }
 .blue{
-  width: 5px;
+  width: 50%;
   background-color: blue;
   display: flex;
   position: relative;
-  left: 300px;
+
+  margin-bottom: 60px;
+  padding: 10px  0 10px 0;
+  text-align: center;
 }
 .yellow{
-  width: 5px;
-  background-color: yellow;
+  width: 50%;
+  background-color: orange;
   display: flex;
   position: relative;
-  left: 300px;
-}
-.purple{
-  width: 5px;
-  background-color: purple;
-  display: flex;
-  position: relative;
-  left: 300px;
 
+  margin-bottom: 60px;
+  padding: 10px  0 10px 0;
+  text-align: center;
 }
+
 .chart{
   height: 200px;
   width: 200px;
@@ -66,6 +71,6 @@ display: flex;
   font-weight: bold;
   font-size: 20px;
   padding: 0.5em 0 1.8em 0;
-  text-align: center;
+
   white-space: nowrap;
 }

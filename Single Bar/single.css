@@ -1,16 +1,17 @@
 body{
-  display: flex;
+  text-align: center;
   justify-content: center;
-  align-items: center;
-  background-color: #696969;
 }
 p{
   color: white;
   text-align: center;
 }
+.mainTitle{
+ text-align: center;
+}
 .box{
   background-color: #696969;
-  
+
   width: 300px;
   padding: 20px;
 }
@@ -21,25 +22,4 @@ p{
  display: flex;
  color: white;
  font-size: 13px;
-}
-
-.red{
-  text-align: center;
-  background-color: #DC143C;
-  width: var(--bar-value)
-}
-.green{
-  text-align: center;
-  background-color: #8FBC8F;
-  width: var(--bar-value)
-}
-.blue{
-  text-align: center;
-  background-color: #4169e1;
-  width: var(--bar-value)
-}
-.yellow{
-  text-align: center;
-  background-color: #F0E68C;
-  width: var(--bar-value)
 }
