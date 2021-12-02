@@ -1,8 +1,17 @@
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 80px;
+}
 .mid{
   display: flex;
   justify-content: center;
   align-items: center;
-
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .btn{
   border: 0;
