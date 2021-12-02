@@ -1,81 +1,84 @@
-body{
+body {
   background-color: #575757;
   font-weight: bold;
   color: #F5F5F5;
 }
 
-.mainTitle{
- text-align: center;
+.mainTitle {
+  text-align: center;
 }
-.red{
+
+.red {
   width: 50%;
   background-color: red;
   display: flex;
   position: relative;
-
-
-transform: rotate(90deg);
+  transform: rotate(90deg);
   margin-bottom: 60px;
-  padding: 10px  0 10px 0;
+  padding: 10px 0 10px 0;
   text-align: center;
 }
-.green{
+
+.green {
   width: 50%;
   background-color: green;
   display: flex;
   position: relative;
-transform: rotate(90deg);
+  transform: rotate(90deg);
   margin-bottom: 60px;
- padding: 10px  0 10px 0;
- text-align: center;
+  padding: 10px 0 10px 0;
+  text-align: center;
 }
-.blue{
+
+.blue {
   width: 50%;
   background-color: blue;
   display: flex;
   position: relative;
-transform: rotate(90deg);
+  transform: rotate(90deg);
   margin-bottom: 60px;
-  padding: 10px  0 10px 0;
+  padding: 10px 0 10px 0;
   text-align: center;
 }
-.yellow{
+
+.yellow {
   width: 50%;
   background-color: orange;
   display: flex;
   position: relative;
-transform: rotate(90deg);
+  transform: rotate(90deg);
   margin-bottom: 60px;
-  padding: 10px  0 10px 0;
+  padding: 10px 0 10px 0;
   text-align: center;
 }
 
-.chart{
+.chart {
   height: 200px;
   width: 200px;
-  background: conic-gradient(red  0% 30.9%,blue 31.90% 50%, transparent 50% 100%);
+  background: conic-gradient( blue 0% 19.1%,red 19.1% 50%, transparent 50% 100%);
   border-radius: 50%;
- transform: rotate(-90deg);
+  transform: rotate(-90deg);
 }
 
-.chart2{
+.chart2 {
   height: 200px;
   width: 200px;
-  background: conic-gradient(red  0% 17.8%,blue 17.8% 50%,transparent 50% 100%);
+  background: conic-gradient(blue 0% 32.2%,red 32.2% 50% , transparent 50% 100%);
   border-radius: 50%;
-transform: rotate(-90deg);
+  transform: rotate(-90deg);
 }
-.chart3{
+
+.chart3 {
   height: 200px;
   width: 200px;
-  background: conic-gradient(green 0% 10.76%,blue 10.76% 38.29% ,red  38.29% 48.09%, orange 48.09% 50%,transparent 50% 100%  );
+  background: conic-gradient(green 0% 10.76%, blue 10.76% 38.29%, red 38.29% 48.09%, orange 48.09% 50%, transparent 50% 100%);
   border-radius: 50%;
-transform: rotate(-90deg);
+  transform: rotate(-90deg);
 }
+
 .title {
   font-weight: bold;
   font-size: 20px;
   padding: 0.5em 0 1.8em 0;
-
   white-space: nowrap;
 }

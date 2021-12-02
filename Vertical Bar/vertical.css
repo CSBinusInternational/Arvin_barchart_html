@@ -1,4 +1,3 @@
-
 .chart-wrap {
   margin-left: 50px;
   font-family: sans-serif;
@@ -74,7 +73,6 @@
 }
 
 .chart-wrap .redbar {
-
   width: var(--bar-value);
   height: 50px;
   margin: 15px 0;

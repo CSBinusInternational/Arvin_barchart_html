@@ -1,25 +1,47 @@
-body{
+body {
   text-align: center;
   justify-content: center;
 }
-p{
+
+p {
   color: white;
   text-align: center;
 }
-.mainTitle{
- text-align: center;
-}
-.box{
-  background-color: #696969;
 
-  width: 300px;
-  padding: 20px;
+.mainTitle {
+  text-align: center;
 }
-.bar{
- background-color: #808080;
- height: 25px;
- border-radius: 20px;
- display: flex;
- color: white;
- font-size: 13px;
+
+.box {
+  background-color: #696969;
+}
+
+.bar {
+  background-color: #808080;
+  height: 35px;
+  border-radius: 20px;
+  display: flex;
+  color: white;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.green {
+  width: var(--bar-value);
+  background-color: green;
+}
+
+.blue {
+  width: var(--bar-value);
+  background-color: blue;
+}
+
+.red {
+  width: var(--bar-value);
+  background-color: red;
+}
+
+.yellow {
+  width: var(--bar-value);
+  background-color: orange;
 }
