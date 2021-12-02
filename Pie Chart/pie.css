@@ -5,6 +5,10 @@ body{
   align-items: center;
   justify-content: center;
 }
+.barline{
+  height: 1px;
+  background: black;
+}
 .mainTitle{
   text-align: center;
 }
