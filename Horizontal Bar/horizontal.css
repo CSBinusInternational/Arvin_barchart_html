@@ -7,8 +7,12 @@
   height: 1px;
   background: black;
 }
+.mainbackground{
+  background: #303234;
+}
 .mainTitle {
   text-align: center;
+  color: white;
 }
 
 .grid {

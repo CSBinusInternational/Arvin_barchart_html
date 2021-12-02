@@ -9,8 +9,12 @@
   width: 300px;
 }
 
+.mainbackground{
+  background: #303234;
+}
 .mainTitle {
   text-align: center;
+    color: white;
 }
 
 .chart-wrap .title {

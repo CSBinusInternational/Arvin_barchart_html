@@ -1,7 +1,7 @@
 body{
   background-color: #A9A9A9;
   color: white;
-  display: flex;
+
   align-items: center;
   justify-content: center;
 }
@@ -9,8 +9,13 @@ body{
   height: 1px;
   background: black;
 }
+.mainbackground{
+  background: #303234;
+}
 .mainTitle{
   text-align: center;
+
+
 }
 
 .red {

@@ -8,6 +8,9 @@ p {
   color: white;
   text-align: center;
 }
+.mainbackground{
+  background: #303234;
+}
 .barline{
   height: 1px;
   background: black;
