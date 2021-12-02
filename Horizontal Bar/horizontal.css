@@ -3,7 +3,10 @@
   height: 600px;
   font-family: sans-serif;
 }
-
+.barline{
+  height: 1px;
+  background: black;
+}
 .mainTitle {
   text-align: center;
 }

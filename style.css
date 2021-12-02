@@ -6,6 +6,10 @@
   margin-bottom: 50px;
   font-size: 80px;
 }
+.barline{
+  height: 1px;
+  background: black;
+}
 .mid{
   display: flex;
   justify-content: center;

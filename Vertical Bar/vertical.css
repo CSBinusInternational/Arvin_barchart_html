@@ -1,3 +1,7 @@
+.barline{
+  height: 1px;
+  background: black;
+}
 .chart-wrap {
   margin-left: 50px;
   font-family: sans-serif;

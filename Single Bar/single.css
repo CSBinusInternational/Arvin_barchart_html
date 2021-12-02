@@ -1,14 +1,17 @@
 body {
   background-color: #A9A9A9;
   text-align: center;
-  
+
 }
 
 p {
   color: white;
   text-align: center;
 }
-
+.barline{
+  height: 1px;
+  background: black;
+}
 .mainTitle {
   text-align: center;
 }
