@@ -1,5 +1,12 @@
-.title{
+.mid{
   display: flex;
   justify-content: center;
   align-items: center;
+
+}
+.btn{
+  border: 0;
+  padding: 15px 30px;
+  border-radius: 5%;
+  margin-right: 5px;
 }
